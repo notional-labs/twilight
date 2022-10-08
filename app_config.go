@@ -70,7 +70,7 @@ var (
 		stakingtypes.NotBondedPoolName,
 		nft.ModuleName,
 		// We allow the following module accounts to receive funds:
-		// govtypes.ModuleName
+		// govtypes.ModuleName,
 	}
 
 	// application configuration (used by depinject)
@@ -138,7 +138,7 @@ var (
 			{
 				Name: authtypes.ModuleName,
 				Config: appconfig.WrapAny(&authmodulev1.Module{
-					Bech32Prefix:             "cosmos",
+					Bech32Prefix:             "twilight",
 					ModuleAccountPermissions: moduleAccPerms,
 				}),
 			},

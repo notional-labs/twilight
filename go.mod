@@ -1,4 +1,4 @@
-module github.com/notional-labs/test47
+module github.com/notional-labs/twilight
 
 go 1.19
 
